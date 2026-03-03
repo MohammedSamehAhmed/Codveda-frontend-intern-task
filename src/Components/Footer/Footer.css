@@ -1,0 +1,33 @@
+.Footer{
+    background-color: #f2f0f1;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.links-1,
+.links-2,
+.links-3,
+.links-4 {
+    
+    width: 20%;
+}
+@media (max-width: 830px) {
+    .Footer{
+    background-color: #f2f0f1;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+    .links-1,
+    .links-2,
+    .links-3,
+    .links-4 {
+        width: 40%;
+    }
+}
